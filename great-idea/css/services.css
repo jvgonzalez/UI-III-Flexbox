@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
 	margin: 26px auto;
@@ -75,8 +74,15 @@ header {
 }
 
 .navigation a{
+	color:green;
+	text-decoration: none;
+}
+
+
+/*
+.navigation a{
 	border-radius: 2px;
-	color: grey;
+	color: green;
 	font-size: 15px;
 	padding: 5px 8px;
 	margin-right: 25px;
@@ -162,59 +168,4 @@ footer p{
 	margin: 55px 0 120px;
 	text-align: center;
 }
-
-/* services */
-/*.navigationservices{
-	display: flex;
-	justify-content: space-between; */
-
- .nav{
-	display: flex;
-	justify-content: space-between;
-	border: 1px solid red;
-}
-.navigationservices a{
-	border-radius: 4px;
-	color: grey;
-	font-size: 15px;
-	padding: 5px 8px;
-	margin-right: 25px;
-	text-decoration: none;
-}
-
-.container2 header{
- height: 340px;
-}
-
-.box1 .h2{
-
-}
-
-
-
-.content2{
-	border: 2px solid orange;
-  display: flex;
-
-}
-
-.box1{
-	border: 2px solid blue;
-}
-
-.box2{
-	border: 2px solid salmon;
-}
-
-.box3{
-	border: 2px solid pink;
-}
-
-.box4{
-	border: 2px solid rebeccapurple;
-}
-
-footer {
-	display: flex;
-  justify-content: center;
-}
+*/
