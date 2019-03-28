@@ -164,9 +164,7 @@ footer p{
 }
 
 /* services */
-/*.navigationservices{
-	display: flex;
-	justify-content: space-between; */
+
 
  .nav{
 	display: flex;
@@ -183,37 +181,16 @@ footer p{
 }
 
 .container2 header{
- height: 340px;
-}
+	height: 340px;    /*will need this for pushing everything down */
+ }
 
-.box1 .h2{
-
-}
-/*
-.box1{
-	border: 2px solid blue;
-	display: flex;
+.topservices{
 	
-  
+	margin-top: 30px;
+	
 }
 
-.box2{
-	border: 2px solid salmon;
-}
 
-.box3{
-	border: 2px solid pink;
-}
-
-.box4{
-	border: 2px solid rebeccapurple;
-}
-
-footer {
-	display: flex;
-  justify-content: center;
-}
-*/
 .services{
 	border-color: black;
 	border-style: solid;
@@ -223,7 +200,6 @@ footer {
 	justify-content: space-between;
 	align-items: flex-start;
 	flex-flow: row wrap;
-	
 }
 
 .services section{ 
@@ -232,7 +208,7 @@ footer {
 	border: solid 1px green;
 	padding: 20px;
 	margin-bottom: 40px;
-	
+
 }
 
 .container2{
